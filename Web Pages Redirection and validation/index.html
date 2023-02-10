@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f32fcd4286.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/register.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <main>
+        <section class="login">
+            <div class="left-main">
+                <img src="./images/wallpaperflare.com_wallpaper (21).jpg" alt="">
+                <div class="logo-main">
+                    <img class="logo" src="./images/main-logo.png" alt="">
+                </div>
+            </div>
+            <form class="right-main">
+                <h1>Sign Up</h1>
+                <div class="input-main">
+                    <input id="rUname" type="text" placeholder="Username" style="text-transform: lowercase;">
+                    <div class="line"></div>
+                    <div class="message"><span class="msg-anim" id="rName"></span></div>
+                </div>
+                <div class="input-main">
+                    <input id="rEmail" type="email" placeholder="Email Address">
+                    <div class="line"></div>
+                    <div class="message"><span class="msg-anim" id="rMail"></span></div>
+                </div>
+                <div class="input-main">
+                    <input id="rPswd" type="password" placeholder="Password">
+                    <div class="line2"></div>
+                    <div class="message"><span class="msg-anim" id="rPass1"></span></div>
+                </div>
+                <div class="input-main">
+                    <input id="rPswd2" type="password" placeholder="Confirm Password">
+                    <div class="line2"></div>
+                    <div class="message"><span class="msg-anim" id="rPass2"></span></div>
+                </div>
+                <button onclick="register()" type="button"><span>SIGN UP</span><i class="fa-sharp fa-solid fa-angle-right"></i></button>
+                <!-- <h5>or Connect with Social Media</h5>
+                <div class="button-main">
+                    <button class="btn-facebook btn" type="button"><i class="fa-brands fa-twitter"></i></button>
+                    <button class="btn-twitter btn" type="button"><i class="fa-brands fa-facebook-f"></i></button>
+                    <button class="btn-google btn" type="button"><i class="fa-brands fa-google"></i></button>
+                </div > -->
+                <h5>Already a member? &nbsp;<a href="./login.html">Sign In</a></h5>
+            </form>
+        </section>
+    </main>
+
+    <script src="./blog.js"></script>
+</body>
+
+</html>

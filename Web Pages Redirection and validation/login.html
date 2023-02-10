@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f32fcd4286.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <section class="login">
+            <div class="left-main">
+                <img src="./images/wallpaperflare.com_wallpaper (21).jpg" alt="">
+                <div class="logo-main">
+                    <img class="logo" src="./images/main-logo.png" alt="">
+                </div>
+            </div>
+            <div class="right-main">
+                <h1>Sign In</h1>
+                <div class="input-main">
+                    <input id="lUname" type="text" placeholder="Username" style="text-transform: lowercase;">
+                    <div class="line"></div>
+                    <div class="message"><span class="msg-anim" id="lName"></span></div>
+                </div>
+                <div class="input-main">
+                    <input id="lPswd" type="password" placeholder="Password">
+                    <div class="line2"></div>
+                    <div class="message"><span class="msg-anim" id="lPass"></span></div>
+                </div>
+                <span style="display: block;" class="span-main">
+                    <button onclick="login()" type="button"><span>CONTINUE</span><i class="fa-sharp fa-solid fa-angle-right"></i></button>
+                    <div><p class="forgot"><a href="#">Forgot Password?</a></p></div>
+                </span>
+                <h5>or Connect with Social Media</h5>
+                <button type="button"><i class="fa-brands fa-twitter"></i>Sign In With Twitter</button>
+                <button type="button"><i class="fa-brands fa-facebook-f"></i>Sign In With Facebook </button>
+                <button type="button"><i class="fa-brands fa-google"></i>Sign In With Google</button>
+                <h5 style="margin-top: 25px;">Not a member? &nbsp;<a href="./index.html">Signup Now</a></h5>
+            </div>
+        </section>
+    </main>
+
+    <script src="./blog.js"></script>
+</body>
+</html>

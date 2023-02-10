@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url("../images/wallpaperflare.com_wallpaper\ \(21\).jpg");
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    box-sizing: border-box;
+    width: 920px;
+    height: 600px;
+    background-color: gray;
+    display: flex;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 2rem;
+}
+
+.left-main {
+    margin-right: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.left-main>img {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.logo-main {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    z-index: 20;
+}
+
+.logo {
+    width: 100px;
+}
+
+.right-main {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    min-width: 340px;
+    padding: 3rem;
+    height: auto;
+    /* gap: 15px; */
+    flex-shrink: 0;
+}
+
+.message {
+    /* background-color: blue; */
+    height: 15px;
+    font-size: 0.7rem;
+    color: red;
+    font-weight: 500;
+    text-align: left;
+    padding:0 5px;
+    box-sizing: border-box;
+    font-style: italic;
+}
+
+/* .message {
+    background-color: green;
+} */
+
+/* @keyframes shake {
+    0% {rotate: 1turn;}
+
+    100% {rotate: 1turn;}
+} */
+
+.right-main input,
+button {
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.right-main input {
+    border-bottom: 3px solid linear-gradient(to right, #2755ff, rgb(233, 92, 255));
+    padding: 0.5rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-main input:focus-visible {
+    outline: 3px solid rgb(135, 153, 235);
+}
+
+.input-main {
+    /* background-color: yellow; */
+    height: min-content;
+    gap: 0;
+}
+
+.right-main button {
+    color: white;
+    padding: 0 20px;
+    transition: padding 0.3s ease-out;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+}
+
+button>i {
+    font-size: 1.15rem;
+}
+
+.right-main button:hover {
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.349);
+    text-shadow: 0px 0px 2px black;
+    cursor: pointer;
+    padding: 0 10px;
+    transition: padding 0.3s ease-out;
+}
+
+.right-main .span-main>button {
+    background-image: linear-gradient(to right, #2755ff, rgb(233, 92, 255));
+    display: flex;
+    align-items: center;
+}
+
+.right-main .span-main>button>span {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right-main :nth-child(6) {
+    background-image: linear-gradient(to right, rgb(0, 205, 205), rgb(118, 255, 255))
+}
+
+.right-main :nth-child(7) {
+    background-image: linear-gradient(to right, rgb(0, 79, 205), rgb(97, 135, 248))
+}
+
+.right-main :nth-child(8) {
+    background-image: linear-gradient(to right, rgb(205, 0, 0), rgb(255, 118, 118));
+}
+
+.line {
+    width: 100%;
+    background-image: linear-gradient(to right, #2755ff, rgb(233, 92, 255));
+    height: 2px;
+    margin: 0;
+}
+
+.line2 {
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(to right, #2755ff, rgb(233, 92, 255));
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h5 {
+    text-align: center;
+    color: rgb(155, 155, 155);
+    margin: 1rem;
+}
+
+h5>a {
+    text-decoration: none;
+    color: rgb(233, 92, 255);
+}
+
+.forgot {
+    /* margin-left: 5px; */
+    display: inline;
+}
+
+.forgot>a {
+    margin-left: auto;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(111, 135, 239);
+    font-size: 0.8rem;
+}
+
+.right-main > button {
+    margin-top: 10px;
+}
